@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+advertising_campaign_backend/.idea
+advertising_campaign_client/.idea
+
+# dependencies
+/advertising_campaign_client/node_modules
+/advertising_campaign_client/.pnp
+/advertising_campaign_client/.pnp.js
+
+# testing
+/advertising_campaign_client/coverage
+
+# production
+/advertising_campaign_client/build
+
+# misc
+/advertising_campaign_client/.DS_Store
+/advertising_campaign_client/.env.local
+/advertising_campaign_client/.env.development.local
+/advertising_campaign_client/.env.test.local
+/advertising_campaign_client/.env.production.local
+
+/advertising_campaign_client/npm-debug.log*
+/advertising_campaign_client/yarn-debug.log*
+/advertising_campaign_client/yarn-error.log*
+
+/advertising_campaign_backend/node_modules
+/advertising_campaign_backend/public/hot
+/advertising_campaign_backend/public/storage
+/advertising_campaign_backend/storage/*.key
+/advertising_campaign_backend/vendor
+/advertising_campaign_backend/.env.example
+/advertising_campaign_backend/.env.backup
+/advertising_campaign_backend/.phpunit.result.cache
+/advertising_campaign_backend/docker-compose.override.yml
+/advertising_campaign_backend/Homestead.json
+/advertising_campaign_backend/Homestead.yaml
+/advertising_campaign_backend/npm-debug.log
+/advertising_campaign_backend/yarn-error.log
+
